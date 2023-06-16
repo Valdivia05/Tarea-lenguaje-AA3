@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    place-items: center;
+    padding: 0;
+}
+
+body{
+    background-image: url(./fondoreloj.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    margin: 45px;
+}
+
+#titulo{
+    color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 40px;
+}
+
+#inicio .uno{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 300px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+

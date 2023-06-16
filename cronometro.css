@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(./fondo1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin: 45px;
+}
+
+#introduccion{
+    position: relative;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+#inicio .uno{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#cronometro{
+    user-select: none;
+    margin-top: 100px;
+    position: relative;
+    max-width: 100%;
+}
+
+
+.tiempo{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    height: 180px;
+    max-width: 100%;
+}
+
+.tiempo span{
+    width: 200px;
+    text-align: center;
+    font-size: 150px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.tiempo span .puntos{
+    width: 10px ;
+}
+
+.tiempo span.puntosms,
+.tiempo span.milesegundos{
+    color: rgb(77, 255, 255);
+}
+
+.botones{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.botones button{
+    padding: 15px 150px;
+    background-color: transparent;
+    color: yellow;
+    border: none;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.botones button.active,
+.botones button.stopActive{
+    pointer-events: none;
+    opacity: .4;
+}
